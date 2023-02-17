@@ -1,1 +1,1 @@
-[Site link](https://replit.com/@cloudcompute/basicinformationalsite?v=1)
+[Site link](https://basicinformationalsite.cloudcompute.repl.co/)
