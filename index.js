@@ -38,5 +38,5 @@ const server = http.createServer((req,res)=>{
 
 //server listening code
 server.listen(PORT,()=>{
-    console.log(`server running on ${port}`);
+    console.log(`server running on ${PORT}`);
 })
