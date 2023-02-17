@@ -1,8 +1,7 @@
 const http = require('http');
 const fs = require('fs')
 const path = require('path')
-const hostname='localhost'
-const port =3001
+const PORT=3000
 
 
 //page content
@@ -38,6 +37,6 @@ const server = http.createServer((req,res)=>{
 
 
 //server listening code
-server.listen(port,hostname,()=>{
-    console.log(`server running at http://${hostname}:${port}/`);
+server.listen(PORT,hostname,()=>{
+    console.log(`server running on ${port}`);
 })
